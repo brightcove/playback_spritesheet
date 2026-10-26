@@ -1,4 +1,12 @@
 # Spritesheet
+
+> **Deprecated — scheduled for archival.**
+>
+> This repository has no remaining consumers: `playback_image-api` inlined the
+> encoder it used (`Encode`) in [playback_image-api#269](https://github.com/brightcove/playback_image-api/pull/269),
+> and no other repository imports it. It will be moved to `brightcove-archive`.
+> Use the standard library (`image`, `image/draw`) if you need to build a grid
+> of images. The code below is kept for reference only.
 Spritesheet is an Encoder and Decoder to build spritesheets from a list of images or seperate a spritesheet into multiple images. 
 
 ## Encoder
